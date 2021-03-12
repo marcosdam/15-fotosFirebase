@@ -1,0 +1,20 @@
+<div class="card-group">
+
+    <div class="card" *ngFor="let item of items | async">
+        <img [src]="item.url" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">{{ item.nombre }}</h5>
+        </div>
+    </div>
+
+</div>
+
+
+
+<!--AngularFireStore
+<ul>
+    <li class="text" *ngFor="let item of items | async">
+        {{item.name}}
+    </li>
+</ul>
+-->

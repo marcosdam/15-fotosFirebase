@@ -3,7 +3,41 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyCr1Qr0J6dhRIwF7CWJFBBA6mKjbwOZoMo',
+    authDomain: 'fir-fotos-1ae15.firebaseapp.com',
+    databaseURL: '<your-database-URL>',
+    projectId: 'fir-fotos-1ae15',
+    storageBucket: 'fir-fotos-1ae15.appspot.com',
+    messagingSenderId: '481385008737',
+    appId: '1:481385008737:web:fc779d79acf773cc40e420',
+    measurementId: '<your-measurement-id>'
+  }
+
+  /*
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCr1Qr0J6dhRIwF7CWJFBBA6mKjbwOZoMo",
+        authDomain: "fir-fotos-1ae15.firebaseapp.com",
+        projectId: "fir-fotos-1ae15",
+        storageBucket: "fir-fotos-1ae15.appspot.com",
+        messagingSenderId: "481385008737",
+        appId: "1:481385008737:web:fc779d79acf773cc40e420"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  */
+
+
 };
 
 /*
